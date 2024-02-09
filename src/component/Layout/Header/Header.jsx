@@ -1,12 +1,22 @@
 import React from "react";
 import styled from "styled-components";
-import { useRef, useEffect, useState } from "react";
+import { useState } from "react";
 
 const HeaderComp = styled.section`
   .container {
+    width: 100%;
     .menu {
       display: flex;
+      justify-content: space-between;
       li {
+        width: 80%;
+        text-align: center;
+        button {
+          background-color: transparent;
+          border: transparent;
+          font-weight: 600;
+          font-size: 1.4em;
+        }
       }
     }
   }

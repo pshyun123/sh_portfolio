@@ -6,7 +6,7 @@ const ProjectComp = styled.section`
 const Project = ({ active }) => {
   return (
     <>
-      <ProjectComp id="skill" active={active}>
+      <ProjectComp id="project" active={active}>
         <div className="wrapper">
           <div className="container">
             <div className="textBox">
