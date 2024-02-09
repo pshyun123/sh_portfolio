@@ -1,9 +1,12 @@
 import styled from "styled-components";
-const IntroComp = styled.section``;
-const Intro = () => {
+const IntroComp = styled.section`
+  height: 100vh;
+  background-color: ${(props) => (props.active ? "pink" : "#CCC")};
+`;
+const Intro = ({ active }) => {
   return (
     <>
-      <IntroComp>
+      <IntroComp id="intro" active={active}>
         <div className="wrapper">
           <div className="container">
             <div className="textBox">
