@@ -4,18 +4,24 @@ import { useState } from "react";
 
 const HeaderComp = styled.section`
   .container {
-    width: 100%;
     .menu {
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 10px;
       display: flex;
       justify-content: space-between;
+      border-radius: 20px;
+      box-shadow: 2px 2px 2px 2px #ccc;
+
       li {
-        width: 80%;
+        /* width: 100%; */
         text-align: center;
         button {
           background-color: transparent;
           border: transparent;
-          font-weight: 600;
-          font-size: 1.4em;
+          font-weight: 400;
+          font-size: 1.1em;
         }
       }
     }
