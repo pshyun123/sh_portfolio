@@ -2,18 +2,16 @@ import Intro from "../component/Main/Intro";
 import MyInfo from "../component/Main/MyInfo";
 import Skill from "../component/Main/Skill";
 import Project from "../component/Main/Project";
-import styled from "styled-components";
-const MainComp = styled.section``;
+import Download from "../component/Main/Download";
 
 const MainPage = () => {
   return (
     <>
-      <MainComp>
-        <Intro />
-        <MyInfo />
-        <Skill />
-        <Project />
-      </MainComp>
+      <Intro />
+      <MyInfo />
+      <Skill />
+      <Project />
+      <Download />
     </>
   );
 };

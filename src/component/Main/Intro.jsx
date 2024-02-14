@@ -1,7 +1,7 @@
 import styled from "styled-components";
 const IntroComp = styled.section`
   height: 100vh;
-  background-color: ${(props) => (props.active ? "pink" : "#CCC")};
+  background-color: ${(props) => (props.active ? "MIDBLUE" : "var(--MIDBLUE)")};
 `;
 const Intro = ({ active }) => {
   return (

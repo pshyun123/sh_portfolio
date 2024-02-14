@@ -1,7 +1,8 @@
 import styled from "styled-components";
 const SkillComp = styled.section`
   height: 100vh;
-  background-color: ${(props) => (props.active ? "transparent" : "#eaadad")};
+  background-color: ${(props) =>
+    props.active ? "transparent" : "var(--BLUE)"};
 `;
 const Skill = ({ active }) => {
   return (

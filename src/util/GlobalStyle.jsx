@@ -4,10 +4,11 @@ import reset from "styled-reset";
 const GlobalStyle = createGlobalStyle`
   ${reset}
   :root {
-    --DARKRED : #7D0A0A;
-    --RED : #BF3131;
-    --ORANGE : #EF642F;
-    --IVORY : #FAF9F1;
+    --DARKBLUE : #0C2442;
+    --MIDBLUE : #174380;
+    --BLUE : #336CC0;
+    --LIGHTBLUE :#336CC0;
+    --IVORY : #F5F5F3;
     --GREY : #CCCCCC;
     --DARKGREY : #505050;
     --BLACK : #333333;
@@ -64,7 +65,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.6em;
   }
   main {
-    padding-top: 80px;
+    padding-top: 60px;
     min-height: 60vh;
   }
   .container {

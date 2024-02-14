@@ -1,7 +1,8 @@
 import styled from "styled-components";
 const ProjectComp = styled.section`
   height: 100vh;
-  background-color: ${(props) => (props.active ? "transparent" : "#7575ff")};
+  background-color: ${(props) =>
+    props.active ? "transparent" : "var(--DARKBLUE)"};
 `;
 const Project = ({ active }) => {
   return (

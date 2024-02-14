@@ -1,7 +1,7 @@
 import styled from "styled-components";
 const FooterComp = styled.footer`
   width: 100%;
-  background-color: #0a126d;
+  background-color: var(--BLACK);
   .container {
     padding: 50px 0;
     display: flex;

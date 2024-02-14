@@ -1,22 +1,22 @@
 import styled from "styled-components";
-const MyInfoComp = styled.section`
+const DownloadComp = styled.section`
   height: 100vh;
   background-color: ${(props) =>
-    props.active ? "transparent" : "var(--BLUE)"};
+    props.active ? "transparent" : "var(--DARKGREY)"};
 `;
-const MyInfo = ({ active }) => {
+const Download = ({ active }) => {
   return (
     <>
-      <MyInfoComp id="myInfo" active={active}>
+      <DownloadComp id="project" active={active}>
         <div className="wrapper">
           <div className="container">
             <div className="textBox">
-              <h4>박소현</h4>
+              <h4> 다운로드 영역 </h4>
             </div>
           </div>
         </div>
-      </MyInfoComp>
+      </DownloadComp>
     </>
   );
 };
-export default MyInfo;
+export default Download;
