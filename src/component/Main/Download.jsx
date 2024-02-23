@@ -7,7 +7,7 @@ const DownloadComp = styled.section`
 const Download = ({ active }) => {
   return (
     <>
-      <DownloadComp id="project" active={active}>
+      <DownloadComp id="downloads" active={active}>
         <div className="wrapper">
           <div className="container">
             <div className="textBox">

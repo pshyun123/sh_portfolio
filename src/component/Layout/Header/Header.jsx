@@ -6,7 +6,7 @@ const HeaderComp = styled.section`
   width: 100vw;
   height: 60px;
   backdrop-filter: blur(40px);
-  background-color: white;
+  /* background-color: white; */
   position: fixed;
   top: 0;
   left: 0;
@@ -20,14 +20,14 @@ const HeaderComp = styled.section`
       padding: 10px;
       display: flex;
       justify-content: space-between;
-      border-radius: 20px;
       li {
         text-align: center;
         button {
           background-color: transparent;
           border: transparent;
-          font-weight: 400;
+          font-weight: 300;
           font-size: 1.1em;
+          color: white;
         }
       }
     }
@@ -60,6 +60,11 @@ const Header = () => {
             </li>
             <li>
               <button onClick={() => scrollToRef("project")}>Project</button>
+            </li>
+            <li>
+              <button onClick={() => scrollToRef("downloads")}>
+                Downloads
+              </button>
             </li>
           </ul>
         </div>
