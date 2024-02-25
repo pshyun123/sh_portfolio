@@ -6,7 +6,7 @@ const HeaderComp = styled.section`
   width: 100vw;
   height: 60px;
   backdrop-filter: blur(40px);
-  /* background-color: white; */
+  background-color: rgba(32, 63, 136, 0.7);
   position: fixed;
   top: 0;
   left: 0;

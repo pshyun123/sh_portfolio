@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backImg from "../../images/sea2.jpg";
+import backImg from "../../images/sea1.jpg";
 const IntroComp = styled.section`
   height: 1000px;
 
