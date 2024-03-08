@@ -133,7 +133,7 @@ const MyInfo = ({ active }) => {
                   <h3>CONTACT</h3>
                   <div className="tel">
                     <FontAwesomeIcon className="telIcon" icon={faPhone} />
-                    <p>010-7177-0703</p>
+                    <p>010-7177-07030000</p>
                   </div>
                   <div className="mail">
                     <FontAwesomeIcon className="mailIcon" icon={faEnvelope} />
