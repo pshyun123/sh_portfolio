@@ -147,6 +147,7 @@ const MyInfo = ({ active }) => {
                       <a
                         href="https://lucky-sohyun-park.notion.site/Front-end-af53e38b98664d6dacc6eed0f9bad661"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <img src={notion} alt="notion link" />
                       </a>
