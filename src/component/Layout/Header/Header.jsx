@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { useState } from "react";
 
 const HeaderComp = styled.section`
   width: 100vw;
